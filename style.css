@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+/*Module-1*/
+
+.mod-1 {
+	margin: 30px;
+	padding: 30px;
+	text-align: center;
+	background-color: #f5f5f5;
+}
+.mod-1 table {
+	margin: 0 auto;
+	width: 840px;
+	height: 540px;
+	border-collapse: collapse;
+	background-color: #f5f5f5;
+}
+
+.mod-1 tr th {
+	top: 0;
+}
+.mod-1 tr td:first-child {
+	left: 0;
+}
+
+.mod-1 tr th,
+.mod-1 tr td:first-child {
+	font-weight: 700;
+	background-color: #ADD8E6;
+	position: sticky;
+}
+
+.mod-1 tr:nth-child(2n-1) {
+	background-color: #E9E9E9;
+}
+.mod-1 table tr .cover {
+	position: sticky;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 120px;
+	background-color: #ADD8E6;
+	z-index: 2;
+}
+
+/*Module-2*/
+
+.menu {
+	width: 110px;
+	height: 100%;
+	position: fixed;
+	background-color: #7E7E7E;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: #fff;
+	transition: all 1s linear;
+	overflow: hidden;
+}
+.menu:hover {
+	width: 270px;
+}
+
+.menu p {
+	margin: 30px 0 40px 30px;
+}
+.menu ul {
+	list-style: none;
+	height: 75%;
+}
+.menu ul li {
+	padding: 35px 0 10px 120px;
+	height: 15%;
+	overflow: hidden;
+}
+.menu img {
+	height: 70px;
+	position: absolute;
+	margin-left: -100px;
+	margin-top: -25px;
+}
+
+.menu li:hover {
+	background-color: #696969;
+}
+
+
+.menu ul li span {
+	opacity: 0;
+	transition: all 2s;
+
+}
+.menu:hover ul li span {
+	opacity: 1;
+}
+
+
+.container {
+	padding: 50px 30px 0 170px;
+}
+.container h2 {
+	font-size: 26px;
+}
+.container p {
+	margin: 20px 0;
+	font-size: 20px;
+}
